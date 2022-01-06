@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Mongoose DJN"
-permalink: /about/
+permalink: /database/
 ---
 
 
