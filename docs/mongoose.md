@@ -1,6 +1,9 @@
+---
 layout: page
 title: "Mongoose DJN"
 permalink: /about/
+---
+
 
 # Mongoose
 mongodb object modeling for node.js
