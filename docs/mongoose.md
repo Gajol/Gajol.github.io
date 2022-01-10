@@ -2,8 +2,12 @@
 layout: page
 title: "Mongoose DJN"
 permalink: /database/
+category: database nosql
 ---
 
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
 
 # Mongoose
 mongodb object modeling for node.js
