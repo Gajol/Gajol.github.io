@@ -13,6 +13,15 @@ category: database nosql
 mongodb object modeling for node.js
 [mongoose](https://mongoosejs.com/)
 
+
+Welcome to My Home Page
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
+
+
 # MongoDB
 
 - [ ] Still a bit confused.   I used Mongo Atlas, so what is this MongoDB.  This four-part tutorial might be good as it installs mongodb locally [codingthesmartway.com MERN CRUD Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1)
