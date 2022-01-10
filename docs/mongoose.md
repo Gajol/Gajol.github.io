@@ -4,6 +4,9 @@ title: "Mongoose DJN"
 permalink: /database/
 category: database nosql
 ---
+{% comment %}
+List repositories in Gajol's Github
+{% endcomment %}
 
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
