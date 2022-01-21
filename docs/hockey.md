@@ -1,14 +1,9 @@
 ---
 layout: page
-title: "Mongoose DJN"
-permalink: /database/
-category: database nosql
+title: "Hockey"
+permalink: /hockey/
+category: database nosql hockey
 ---
-
-# Doug
-Doug was Here .
-
-# Liquid Markup
 {% comment %}
 List repositories in Gajol's Github
 {% endcomment %}
@@ -20,6 +15,8 @@ List repositories in Gajol's Github
 # Mongoose
 mongodb object modeling for node.js
 [mongoose](https://mongoosejs.com/)
+
+Doug was here.
 
 
 Welcome to My Home Page
