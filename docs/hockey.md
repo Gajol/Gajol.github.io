@@ -3,6 +3,7 @@ layout: page
 title: "Hockey"
 permalink: /hockey/
 category: database nosql hockey
+tags: jekyll
 ---
 {% comment %}
 List repositories in Gajol's Github

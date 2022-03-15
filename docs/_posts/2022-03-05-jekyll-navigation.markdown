@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll Navigation"
 date:   2022-03-05 14:55:59 -0500
 categories: jekyll update
+tags: markdown github
 ---
 Learning Github Pages and Jekyll Navigation.
 - [Jekyll RB Tutorials - Navigation](https://jekyllrb.com/tutorials/navigation/)
@@ -13,6 +14,12 @@ Learning Github Pages and Jekyll Navigation.
    {% for item in site.data.samplelist.docs %}
       - {{ item.url }} and {{ item.title }}
    {% endfor %}
+
+## Test
+From [Jekyll Github Pages](http://jekyllrb.com/docs/github-pages/) regarding using relative pages: (unsure why they include the quotes as the resulting URL is where %22 is a '"': http://localhost:4000/jekyll/update/2022/03/05/%22/jekyll/update/2022/03/05/test.html%22)
+- [{{ page.title }}]("{{ page.url | relative_url }}")
+- [{{ page.title }}]({{ page.url | relative_url }})
+
 
 ## White Space Control
 Looping through pages, produces raw-text even though the attempt was to output links to the pages.  *Working with Liquid and Markdown is always a bit tricky because white-space is so significant in Markdown, and the intermediate Liquid-generated Markdown is hidden during the Jekyll compilation process.*
