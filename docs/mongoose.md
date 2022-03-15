@@ -8,7 +8,7 @@ category: database nosql
 # Doug
 Doug was Here .
 
-# Liquid Markup
+## Gajol Github Repositories - Liquid Markup
 {% comment %}
 List repositories in Gajol's Github
 {% endcomment %}
@@ -25,9 +25,8 @@ mongodb object modeling for node.js
 Welcome to My Home Page
 
 {% assign date = '2022-01-09T10:20:00Z' %}
-
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+- Original date - {{ date | date: "%a, %b %d, %y" }}, {{ date | timeago }}, see [Liquid Date Format](https://www.shopify.ca/partners/blog/liquid-date-format)
+- note *timeago* does not work on github pages
 
 
 # MongoDB

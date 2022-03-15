@@ -1,0 +1,22 @@
+# file: _data/list-items.yaml
+# our data structure can be accessed with site.data.list-items
+# this data structure is a dictionary at the root level with keys: name, fruits, and recipes
+# indexing the dictionary with those keys will give back the following data structures
+# site.data.list-items.name --> String (equal to "Assorted foods and things")
+# site.data.list-items.fruits --> List (of strings, each item is a fruit)
+# site.data.list-items.recipes --> List (of dictionaries)
+
+# a string
+name: "Assorted foods and things"
+
+# a list of fruits
+fruits:
+- banana
+- orange
+
+# a list of dictionaries
+recipes:
+- fruits:
+  - mango
+  vegetables:
+  - zucchini
