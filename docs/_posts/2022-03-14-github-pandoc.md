@@ -31,8 +31,13 @@ Google "pandow with markdown and HTML anchors"
 To display the gulp-generated markdown on github, the gitdown "contents" with HTML anchors is needed.  This allows the output-markdown to be usable on Github directly.
 
 The drawback, is this file (with the HTML <a> anchor tags) is rather useless for the Github Actions workflow to generate a PDF.   A separate build for a PDF using pandoc can be done with a ARA.md that does not have anchors.
-1. Use gulp to generate a combined markdown without the anchors foo.md
-1. Use github actions (pandoc) to generate a PDF from this markdown.
+1. Use gulp to generate a combined markdown without a TOC.  This ensures are no anchors in the output file: foo.md.
+1. Use github actions (pandoc) to generate a PDF from this markdown.   Can an line-option in pandoc be used to generate a TOC???  [pandoc toc q&a](https://stackoverflow.com/questions/25591517/pandoc-inserting-pages-before-generated-table-of-contents)
   - see [Auto TOC for GH flavour markdown](https://stackoverflow.com/questions/9721944/automatic-toc-in-github-flavoured-markdown).
   - uses [DocToc Nodejs](https://github.com/thlorenz/doctoc).  Can be used as a [pre commit hook](http://pre-commit.com/).
     - Concern/TBD: This pre commit hook can change TOC files for Markdowns (I guess if the file is unchanged the Markdow is unchanged - so not an issue.)
+
+
+### Result
+Working better after playin with Gulp and serialize the tasks.   The build now gives a LateX
+[LaTex Too Deeply Nest Error](https://texfaq.org/FAQ-toodeep).   There is __no indication__ of where this nesting issue is.
