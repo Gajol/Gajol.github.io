@@ -3,12 +3,21 @@ layout: post
 title:  "Jekyll Navigation"
 date:   2022-03-05 14:55:59 -0500
 categories: jekyll update
-tags: markdown github
+tags: markdown github navigation sidebar
 ---
 Learning Github Pages and Jekyll Navigation.
 - [Jekyll RB Tutorials - Navigation](https://jekyllrb.com/tutorials/navigation/)
   - [Include based on Property - Order](https://jekyllrb.com/tutorials/navigation/)
 
+## Sidebar - Find another Jekyll Theme
+- [Stack Overflow - Sidebar](https://stackoverflow.com/questions/63410862/sidebar-on-github-pages).
+- [Themes for Documentation](https://jekyllthemes.io/jekyll-documentation-themes) : some free others paid-themes.
+  - [Open API Inspired Theme](https://jekyllthemes.io/theme/carte)
+  - [Free Themes](https://cloudcannon.com/blog/free-jekyll-themes-for-2022/)
+  - [Minimal Mistakes Theme](https://github.com/mmistakes/minimal-mistakes)
+  - [Developr](https://github.com/sujaykundu777/devlopr-jekyll): deployable to github pages and firebase (netlify, heroku, AWS Amplify, ...). [Netlify Demo](https://devlopr.netlify.app/).
+
+## Sample Data-Drive Navigation List
 {{ site.data.samplelist.docs_list_title }}
 
    {% for item in site.data.samplelist.docs %}

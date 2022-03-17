@@ -11,6 +11,9 @@ tags: jekyll github
   - [Include based on Property - Order](https://jekyllrb.com/tutorials/navigation/)
 1. [Github Supported Plugins](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins)
 1. [Github Workflow Marketplace](https://github.com/marketplace/)
+1. [Github Learning Lab](https://lab.github.com/)
+1. [Github Docs](https://docs.github.com/en/get-started/quickstart/hello-world)
+
 
 ## Tags
 - [2017 Post on Tags](http://longqian.me/2017/02/09/github-jekyll-tag/) : uses Python to crawl pags and generate a markdown file for each.
