@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "Github Actions"
+title:  "Github Actions - Pandoc to PDF"
 date:   2022-03-04 14:55:59 -0500
 categories: pandoc
 tags: pandoc github-actions

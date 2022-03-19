@@ -1,10 +1,9 @@
-
 ---
 layout: post
 title:  "Jekyll Github Pages : Setting up Minimal Mistakes"
 date:   2022-01-06 14:55:59 -0500
 categories: jekyll update
-tag: nielsen themes actions CI
+tags: nielsen themes actions CI
 ---
 
 # Minimal Mistakes
@@ -19,17 +18,17 @@ Try to get GitHub Pages working with MM theme
 1. [Theme Install](http://gabe-lade.com/theme-setup/)
 1. [Jekyll Talk - Develop with a Remote Theme](https://talk.jekyllrb.com/t/how-to-develop-wth-remote-theme/6021) : GitLab Pages question.
 1. [SO - Gem steps basics](https://stackoverflow.com/questions/46380722/jekyll-theme-could-not-be-found)
-
-    Add the theme-gem to your Gemfile
-    add the theme to your _config.yml (correctly done already..)
-    Run: bundle install (just to make sure Bundler is able to use it)
-    Run: bundle exec jekyll serve
+  -  Add the theme-gem to your Gemfile
+  -  add the theme to your _config.yml (correctly done already..)
+  -  Run: bundle install (just to make sure Bundler is able to use it)
+  -  Run: bundle exec jekyll serve
+1. [Favicon](https://github.com/mmistakes/minimal-mistakes/issues/585)
 
 
 # Posts
 - [MM - Working with Posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/)
 - [Jekyll Posts](https://jekyllrb.com/docs/liquid/tags/#linking-to-posts)
-   - {% post_url 2010-07-21-name-of-post %}
+   - {% raw  %}`{% post_url 2010-07-21-name-of-post %}`{% endraw  %}
 
 - Layout not applying to posts. [link](https://talk.jekyllrb.com/t/solved-layout-not-applying-to-individual-posts-only/2971)
   - Is it baseurl and base? [link](https://talk.jekyllrb.com/t/relative-url-and-baseurl/2051)

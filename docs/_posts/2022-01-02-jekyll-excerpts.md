@@ -7,6 +7,6 @@ categories: jekyll tags
 tags: tags jekyll excerpt
 ---
 
-The Jekyll documentation on excerpts [link](http://jekyllrb.com/docs/posts/#post-excerpts) describes a method for excerpts.   However, the blog on how to use tags with Github & Jekyll had a much pretty excerpt which was different text from the actual blog post [Blog Post](https://github.com/qian256/qian256.github.io/blob/master/_posts/2019-12-13-3d-reconstrcution-for-endoscopic-video.md).   See the [Tag Page](http://longqian.me/tag/hololens/).
+The Jekyll documentation on excerpts [link](http://jekyllrb.com/docs/posts/#post-excerpts) describes a method for excerpts.   However, the blog on how to use tags with Github & Jekyll had a much pretty excerpt which was different text from the actual blog post [Blog Post](https://github.com/qian256/qian256.github.io/blob/master/_posts/2019-12-13-3d-reconstrcution-for-endoscopic-video.md).   See the [Tag Page](http://longqian.me/tag/hololens/).  This [post](https://blog.webjeda.com/jekyll-categories/) shows the Liquid scripting to parse tags.
 
 - Local Host Link to Tags on Jekyll - [tags - jekyll](http://localhost:4000/tag/jekyll) - need to get filter on relative URL going.
